@@ -14,6 +14,9 @@
 		D80E43941C304E0700A822B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80E43921C304E0700A822B6 /* LaunchScreen.storyboard */; };
 		D80E439F1C304E0800A822B6 /* whatdavesaid_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E439E1C304E0800A822B6 /* whatdavesaid_iosTests.swift */; };
 		D80E43AA1C304E0800A822B6 /* whatdavesaid_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E43A91C304E0800A822B6 /* whatdavesaid_iosUITests.swift */; };
+		D80E43B81C304F3B00A822B6 /* ClipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E43B71C304F3B00A822B6 /* ClipsViewController.swift */; };
+		D80E43B91C304F3B00A822B6 /* ClipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E43B71C304F3B00A822B6 /* ClipsViewController.swift */; };
+		D80E43BA1C304F3B00A822B6 /* ClipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E43B71C304F3B00A822B6 /* ClipsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,7 @@
 		D80E43A51C304E0800A822B6 /* whatdavesaid-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "whatdavesaid-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80E43A91C304E0800A822B6 /* whatdavesaid_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatdavesaid_iosUITests.swift; sourceTree = "<group>"; };
 		D80E43AB1C304E0800A822B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80E43B71C304F3B00A822B6 /* ClipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				D80E43901C304E0700A822B6 /* Assets.xcassets */,
 				D80E43921C304E0700A822B6 /* LaunchScreen.storyboard */,
 				D80E43951C304E0700A822B6 /* Info.plist */,
+				D80E43B71C304F3B00A822B6 /* ClipsViewController.swift */,
 			);
 			path = "whatdavesaid-ios";
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D80E438C1C304E0700A822B6 /* ViewController.swift in Sources */,
+				D80E43B81C304F3B00A822B6 /* ClipsViewController.swift in Sources */,
 				D80E438A1C304E0700A822B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D80E43B91C304F3B00A822B6 /* ClipsViewController.swift in Sources */,
 				D80E439F1C304E0800A822B6 /* whatdavesaid_iosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D80E43BA1C304F3B00A822B6 /* ClipsViewController.swift in Sources */,
 				D80E43AA1C304E0800A822B6 /* whatdavesaid_iosUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
