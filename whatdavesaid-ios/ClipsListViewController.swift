@@ -1,5 +1,5 @@
 //
-//  ClipsViewController.swift
+//  ClipsListViewController.swift
 //  whatdavesaid-ios
 //
 //  Created by Joe Fearnley on 12/27/15.
@@ -9,15 +9,11 @@
 import Foundation
 import UIKit
 
-class ClipsViewController : UIViewController {
-    
-    var clips = []
+class ClipsListViewController : UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
-    
     
     
 }

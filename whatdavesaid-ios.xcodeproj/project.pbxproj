@@ -8,15 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D80E438A1C304E0700A822B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E43891C304E0700A822B6 /* AppDelegate.swift */; };
-		D80E438C1C304E0700A822B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E438B1C304E0700A822B6 /* ViewController.swift */; };
 		D80E438F1C304E0700A822B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80E438D1C304E0700A822B6 /* Main.storyboard */; };
 		D80E43911C304E0700A822B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80E43901C304E0700A822B6 /* Assets.xcassets */; };
 		D80E43941C304E0700A822B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80E43921C304E0700A822B6 /* LaunchScreen.storyboard */; };
 		D80E439F1C304E0800A822B6 /* whatdavesaid_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E439E1C304E0800A822B6 /* whatdavesaid_iosTests.swift */; };
 		D80E43AA1C304E0800A822B6 /* whatdavesaid_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E43A91C304E0800A822B6 /* whatdavesaid_iosUITests.swift */; };
-		D80E43B81C304F3B00A822B6 /* ClipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E43B71C304F3B00A822B6 /* ClipsViewController.swift */; };
-		D80E43B91C304F3B00A822B6 /* ClipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E43B71C304F3B00A822B6 /* ClipsViewController.swift */; };
-		D80E43BA1C304F3B00A822B6 /* ClipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E43B71C304F3B00A822B6 /* ClipsViewController.swift */; };
+		D80E43BC1C30515200A822B6 /* ClipsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E43BB1C30515200A822B6 /* ClipsListViewController.swift */; };
+		D80E43BD1C30515200A822B6 /* ClipsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E43BB1C30515200A822B6 /* ClipsListViewController.swift */; };
+		D80E43BE1C30515200A822B6 /* ClipsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E43BB1C30515200A822B6 /* ClipsListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +38,6 @@
 /* Begin PBXFileReference section */
 		D80E43861C304E0700A822B6 /* whatdavesaid-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "whatdavesaid-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80E43891C304E0700A822B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D80E438B1C304E0700A822B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D80E438E1C304E0700A822B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D80E43901C304E0700A822B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D80E43931C304E0700A822B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,7 +48,7 @@
 		D80E43A51C304E0800A822B6 /* whatdavesaid-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "whatdavesaid-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80E43A91C304E0800A822B6 /* whatdavesaid_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatdavesaid_iosUITests.swift; sourceTree = "<group>"; };
 		D80E43AB1C304E0800A822B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D80E43B71C304F3B00A822B6 /* ClipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipsViewController.swift; sourceTree = "<group>"; };
+		D80E43BB1C30515200A822B6 /* ClipsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipsListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +100,11 @@
 			isa = PBXGroup;
 			children = (
 				D80E43891C304E0700A822B6 /* AppDelegate.swift */,
-				D80E438B1C304E0700A822B6 /* ViewController.swift */,
 				D80E438D1C304E0700A822B6 /* Main.storyboard */,
 				D80E43901C304E0700A822B6 /* Assets.xcassets */,
 				D80E43921C304E0700A822B6 /* LaunchScreen.storyboard */,
 				D80E43951C304E0700A822B6 /* Info.plist */,
-				D80E43B71C304F3B00A822B6 /* ClipsViewController.swift */,
+				D80E43BB1C30515200A822B6 /* ClipsListViewController.swift */,
 			);
 			path = "whatdavesaid-ios";
 			sourceTree = "<group>";
@@ -261,8 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D80E438C1C304E0700A822B6 /* ViewController.swift in Sources */,
-				D80E43B81C304F3B00A822B6 /* ClipsViewController.swift in Sources */,
+				D80E43BC1C30515200A822B6 /* ClipsListViewController.swift in Sources */,
 				D80E438A1C304E0700A822B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D80E43B91C304F3B00A822B6 /* ClipsViewController.swift in Sources */,
+				D80E43BD1C30515200A822B6 /* ClipsListViewController.swift in Sources */,
 				D80E439F1C304E0800A822B6 /* whatdavesaid_iosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D80E43BA1C304F3B00A822B6 /* ClipsViewController.swift in Sources */,
+				D80E43BE1C30515200A822B6 /* ClipsListViewController.swift in Sources */,
 				D80E43AA1C304E0800A822B6 /* whatdavesaid_iosUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
