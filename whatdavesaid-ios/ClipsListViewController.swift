@@ -14,7 +14,56 @@ class ClipsListViewController : UIViewController {
     
     @IBOutlet weak var clipsList: UITableView!
     
-    var clips = []
+    var clips = [
+        {
+            filename: "wheres-the-buffet",
+            title: "Where's the Buffet?"
+        },{
+            filename: "hot-damn",
+            title: "Hot Damn"
+        },{
+            filename: "pansy-immune-system",
+            title: "Pansy Immune System"
+        },{
+            filename: "upper-football",
+            title: "Upper Football"
+        },{
+            filename: "william-butterfield",
+            title: "William Butterfield"
+        },{
+            filename: "smooth-as-silk",
+            title: "Smooth as Silk"
+        },{
+            filename: "black-metal",
+            title: "Black Metal"
+        },{
+            filename: "large-can-of-beer",
+            title: "Large Can of Beer"
+        },{
+            filename: "bought-a-new-part",
+            title: "Bought a New Part"
+        },{
+            filename: "who-is-this",
+            title: "Who is this?"
+        },{
+            filename: "futons-instead-of-pews",
+            title: "Futons Instead of Pews"
+        },{
+            filename: "challenge-to-a-duel",
+            title: "Challenge to a Dual"
+        },{
+            filename: "hahaha",
+            title: "Hahahaha"
+        },{
+            filename: "where-you-going",
+            title: "Where You Going?"
+        },{
+            filename: "pessimistic",
+            title: "Pessimistic"
+        },{
+            filename: "clamy-feeling",
+            title: "Clamy Feeling"
+    }
     
     var audioPlayer = AVAudioPlayer()
     

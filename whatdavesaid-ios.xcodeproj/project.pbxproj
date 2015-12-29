@@ -16,6 +16,9 @@
 		D80E43BC1C30515200A822B6 /* ClipsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E43BB1C30515200A822B6 /* ClipsListViewController.swift */; };
 		D80E43BD1C30515200A822B6 /* ClipsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E43BB1C30515200A822B6 /* ClipsListViewController.swift */; };
 		D80E43BE1C30515200A822B6 /* ClipsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E43BB1C30515200A822B6 /* ClipsListViewController.swift */; };
+		D80E43C01C321CF000A822B6 /* Clip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E43BF1C321CF000A822B6 /* Clip.swift */; };
+		D80E43C11C321CF000A822B6 /* Clip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E43BF1C321CF000A822B6 /* Clip.swift */; };
+		D80E43C21C321CF000A822B6 /* Clip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E43BF1C321CF000A822B6 /* Clip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		D80E43A91C304E0800A822B6 /* whatdavesaid_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatdavesaid_iosUITests.swift; sourceTree = "<group>"; };
 		D80E43AB1C304E0800A822B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D80E43BB1C30515200A822B6 /* ClipsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipsListViewController.swift; sourceTree = "<group>"; };
+		D80E43BF1C321CF000A822B6 /* Clip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 				D80E43921C304E0700A822B6 /* LaunchScreen.storyboard */,
 				D80E43951C304E0700A822B6 /* Info.plist */,
 				D80E43BB1C30515200A822B6 /* ClipsListViewController.swift */,
+				D80E43BF1C321CF000A822B6 /* Clip.swift */,
 			);
 			path = "whatdavesaid-ios";
 			sourceTree = "<group>";
@@ -259,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D80E43BC1C30515200A822B6 /* ClipsListViewController.swift in Sources */,
+				D80E43C01C321CF000A822B6 /* Clip.swift in Sources */,
 				D80E438A1C304E0700A822B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D80E43BD1C30515200A822B6 /* ClipsListViewController.swift in Sources */,
+				D80E43C11C321CF000A822B6 /* Clip.swift in Sources */,
 				D80E439F1C304E0800A822B6 /* whatdavesaid_iosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D80E43BE1C30515200A822B6 /* ClipsListViewController.swift in Sources */,
+				D80E43C21C321CF000A822B6 /* Clip.swift in Sources */,
 				D80E43AA1C304E0800A822B6 /* whatdavesaid_iosUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
