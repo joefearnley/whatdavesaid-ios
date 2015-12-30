@@ -14,61 +14,32 @@ class ClipsListViewController : UIViewController {
     
     @IBOutlet weak var clipsList: UITableView!
     
-    var clips = [
-        {
-            filename: "wheres-the-buffet",
-            title: "Where's the Buffet?"
-        },{
-            filename: "hot-damn",
-            title: "Hot Damn"
-        },{
-            filename: "pansy-immune-system",
-            title: "Pansy Immune System"
-        },{
-            filename: "upper-football",
-            title: "Upper Football"
-        },{
-            filename: "william-butterfield",
-            title: "William Butterfield"
-        },{
-            filename: "smooth-as-silk",
-            title: "Smooth as Silk"
-        },{
-            filename: "black-metal",
-            title: "Black Metal"
-        },{
-            filename: "large-can-of-beer",
-            title: "Large Can of Beer"
-        },{
-            filename: "bought-a-new-part",
-            title: "Bought a New Part"
-        },{
-            filename: "who-is-this",
-            title: "Who is this?"
-        },{
-            filename: "futons-instead-of-pews",
-            title: "Futons Instead of Pews"
-        },{
-            filename: "challenge-to-a-duel",
-            title: "Challenge to a Dual"
-        },{
-            filename: "hahaha",
-            title: "Hahahaha"
-        },{
-            filename: "where-you-going",
-            title: "Where You Going?"
-        },{
-            filename: "pessimistic",
-            title: "Pessimistic"
-        },{
-            filename: "clamy-feeling",
-            title: "Clamy Feeling"
-    }
+    var clips: [Clip] = []
     
     var audioPlayer = AVAudioPlayer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        clips.append(Clip(fileName: "wheres-the-buffet", title: "Where's the Buffet?"))
+        clips.append(Clip(fileName: "hot-damn", title: "Hot Damn"))
+        clips.append(Clip(fileName: "pansy-immune-system", title: "Pansy Immune System"))
+        clips.append(Clip(fileName: "upper-football", title: "Upper Football"))
+        clips.append(Clip(fileName: "william-butterfield", title: "William Butterfield"))
+        clips.append(Clip(fileName: "smooth-as-silk", title: "Smooth as Silk"))
+        clips.append(Clip(fileName: "black-metal", title: "Black Metal"))
+        clips.append(Clip(fileName: "large-can-of-beer", title: "Large Can of Beer"))
+        clips.append(Clip(fileName: "bought-a-new-part", title: "Bought a New Part"))
+        clips.append(Clip(fileName: "who-is-this", title: "Who is this?"))
+        clips.append(Clip(fileName: "futons-instead-of-pews", title: "Futons Instead of Pews"))
+        clips.append(Clip(fileName: "challenge-to-a-duel", title: "Challenge to a Dual"))
+        clips.append(Clip(fileName: "hahaha", title: "Hahahaha"))
+        clips.append(Clip(fileName: "where-you-going", title: "Where You Going?"))
+        clips.append(Clip(fileName: "pessimistic", title: "Pessimistic"))
+        clips.append(Clip(fileName: "clamy-feeling", title: "Clamy Feeling"))
+        
+        clipsList.dataSource = self
+        clipsList.delegate = self
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -76,9 +47,9 @@ class ClipsListViewController : UIViewController {
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var sound = self.clips[indexPath.row]
+        var clip = self.clips[indexPath.row]
         var cell = UITableViewCell()
-        cell.textLabel!.text = sound.name
+        cell.textLabel!.text = clip.title
         return cell
     }
     
