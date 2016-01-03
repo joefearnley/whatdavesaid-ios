@@ -47,6 +47,8 @@ class ClipsListViewController : UIViewController {
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        
         var clip = self.clips[indexPath.row]
         var cell = UITableViewCell()
         cell.textLabel!.text = clip.title
