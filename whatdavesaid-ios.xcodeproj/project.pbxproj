@@ -35,6 +35,7 @@
 		D870C9C21C396295001E0A6D /* wheres-the-buffet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D870C9B21C396295001E0A6D /* wheres-the-buffet.mp3 */; };
 		D870C9C31C396295001E0A6D /* who-is-this.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D870C9B31C396295001E0A6D /* who-is-this.mp3 */; };
 		D870C9C41C396295001E0A6D /* william-butterfield.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D870C9B41C396295001E0A6D /* william-butterfield.mp3 */; };
+		D871A9CA1C3B5E9600376219 /* dave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D871A9C91C3B5E9600376219 /* dave.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		D870C9B21C396295001E0A6D /* wheres-the-buffet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "wheres-the-buffet.mp3"; path = "../../../whatdavesaid/audio/wheres-the-buffet.mp3"; sourceTree = "<group>"; };
 		D870C9B31C396295001E0A6D /* who-is-this.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "who-is-this.mp3"; path = "../../../whatdavesaid/audio/who-is-this.mp3"; sourceTree = "<group>"; };
 		D870C9B41C396295001E0A6D /* william-butterfield.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "william-butterfield.mp3"; path = "../../../whatdavesaid/audio/william-butterfield.mp3"; sourceTree = "<group>"; };
+		D871A9C91C3B5E9600376219 /* dave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dave.jpg; path = ../../../../Pictures/dave.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 		D80E43881C304E0700A822B6 /* whatdavesaid-ios */ = {
 			isa = PBXGroup;
 			children = (
+				D871A9C91C3B5E9600376219 /* dave.jpg */,
 				D870C9AB1C396295001E0A6D /* hot-damn.mp3 */,
 				D870C9AC1C396295001E0A6D /* large-can-of-beer.mp3 */,
 				D870C9AD1C396295001E0A6D /* pansy-immune-system.mp3 */,
@@ -303,6 +306,7 @@
 				D870C9C11C396295001E0A6D /* where-you-going.mp3 in Resources */,
 				D870C9B71C396295001E0A6D /* challenge-to-a-duel.mp3 in Resources */,
 				D870C9B81C396295001E0A6D /* clamy-feeling.mp3 in Resources */,
+				D871A9CA1C3B5E9600376219 /* dave.jpg in Resources */,
 				D870C9BC1C396295001E0A6D /* large-can-of-beer.mp3 in Resources */,
 				D870C9BE1C396295001E0A6D /* pessimistic.mp3 in Resources */,
 				D870C9B51C396295001E0A6D /* black-metal.mp3 in Resources */,

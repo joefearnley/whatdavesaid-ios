@@ -47,8 +47,6 @@ class ClipsListViewController : UIViewController, UITableViewDataSource, UITable
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        
-        
         let clip = self.clips[indexPath.row]
         let cell = UITableViewCell()
         cell.textLabel!.text = clip.title
@@ -56,7 +54,6 @@ class ClipsListViewController : UIViewController, UITableViewDataSource, UITable
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        
         let clip = self.clips[indexPath.row]
         
         let path = NSBundle.mainBundle().pathForResource(clip.fileName, ofType: "mp3")
