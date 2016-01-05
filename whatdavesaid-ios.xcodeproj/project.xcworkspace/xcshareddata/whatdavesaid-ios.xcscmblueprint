@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "281BA5C9F889BDFF59E1E0820B3FF363419891D1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "281BA5C9F889BDFF59E1E0820B3FF363419891D1" : 0,
+    "D13CF9BD26AB8D1D6EA1B293DAE73CA956B268F1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AB8F0F3E-C328-4B43-8A4C-8939A328641A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "281BA5C9F889BDFF59E1E0820B3FF363419891D1" : "whatdavesaid-ios\/",
+    "D13CF9BD26AB8D1D6EA1B293DAE73CA956B268F1" : "..\/whatdavesaid"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "whatdavesaid-ios",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "whatdavesaid-ios.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/joefearnley\/whatdavesaid-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "281BA5C9F889BDFF59E1E0820B3FF363419891D1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/joefearnley\/whatdavesaid.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D13CF9BD26AB8D1D6EA1B293DAE73CA956B268F1"
+    }
+  ]
+}

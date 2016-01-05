@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import AVFoundation
 
-class ClipsListViewController : UIViewController {
+class ClipsListViewController : UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var clipsList: UITableView!
     
@@ -49,15 +49,19 @@ class ClipsListViewController : UIViewController {
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         
-        var clip = self.clips[indexPath.row]
-        var cell = UITableViewCell()
+        let clip = self.clips[indexPath.row]
+        let cell = UITableViewCell()
         cell.textLabel!.text = clip.title
         return cell
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        var path = NSBundle.mainBundle().pathForResource("black-metal", ofType: "mp3")
-        var url = NSURL.fileURLWithPath(path!)
+        
+        let clip = self.clips[indexPath.row]
+        
+        let path = NSBundle.mainBundle().pathForResource(clip.fileName, ofType: "mp3")
+        let url = NSURL.fileURLWithPath(path!)
+        
         
         do {
             self.audioPlayer = try AVAudioPlayer(contentsOfURL: url)

@@ -19,6 +19,22 @@
 		D80E43C01C321CF000A822B6 /* Clip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E43BF1C321CF000A822B6 /* Clip.swift */; };
 		D80E43C11C321CF000A822B6 /* Clip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E43BF1C321CF000A822B6 /* Clip.swift */; };
 		D80E43C21C321CF000A822B6 /* Clip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E43BF1C321CF000A822B6 /* Clip.swift */; };
+		D870C9B51C396295001E0A6D /* black-metal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D870C9A51C396295001E0A6D /* black-metal.mp3 */; };
+		D870C9B61C396295001E0A6D /* bought-a-new-part.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D870C9A61C396295001E0A6D /* bought-a-new-part.mp3 */; };
+		D870C9B71C396295001E0A6D /* challenge-to-a-duel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D870C9A71C396295001E0A6D /* challenge-to-a-duel.mp3 */; };
+		D870C9B81C396295001E0A6D /* clamy-feeling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D870C9A81C396295001E0A6D /* clamy-feeling.mp3 */; };
+		D870C9B91C396295001E0A6D /* futons-instead-of-pews.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D870C9A91C396295001E0A6D /* futons-instead-of-pews.mp3 */; };
+		D870C9BA1C396295001E0A6D /* hahaha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D870C9AA1C396295001E0A6D /* hahaha.mp3 */; };
+		D870C9BB1C396295001E0A6D /* hot-damn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D870C9AB1C396295001E0A6D /* hot-damn.mp3 */; };
+		D870C9BC1C396295001E0A6D /* large-can-of-beer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D870C9AC1C396295001E0A6D /* large-can-of-beer.mp3 */; };
+		D870C9BD1C396295001E0A6D /* pansy-immune-system.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D870C9AD1C396295001E0A6D /* pansy-immune-system.mp3 */; };
+		D870C9BE1C396295001E0A6D /* pessimistic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D870C9AE1C396295001E0A6D /* pessimistic.mp3 */; };
+		D870C9BF1C396295001E0A6D /* smooth-as-silk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D870C9AF1C396295001E0A6D /* smooth-as-silk.mp3 */; };
+		D870C9C01C396295001E0A6D /* upper-football.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D870C9B01C396295001E0A6D /* upper-football.mp3 */; };
+		D870C9C11C396295001E0A6D /* where-you-going.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D870C9B11C396295001E0A6D /* where-you-going.mp3 */; };
+		D870C9C21C396295001E0A6D /* wheres-the-buffet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D870C9B21C396295001E0A6D /* wheres-the-buffet.mp3 */; };
+		D870C9C31C396295001E0A6D /* who-is-this.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D870C9B31C396295001E0A6D /* who-is-this.mp3 */; };
+		D870C9C41C396295001E0A6D /* william-butterfield.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D870C9B41C396295001E0A6D /* william-butterfield.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +69,22 @@
 		D80E43AB1C304E0800A822B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D80E43BB1C30515200A822B6 /* ClipsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipsListViewController.swift; sourceTree = "<group>"; };
 		D80E43BF1C321CF000A822B6 /* Clip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clip.swift; sourceTree = "<group>"; };
+		D870C9A51C396295001E0A6D /* black-metal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "black-metal.mp3"; path = "../../../whatdavesaid/audio/black-metal.mp3"; sourceTree = "<group>"; };
+		D870C9A61C396295001E0A6D /* bought-a-new-part.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bought-a-new-part.mp3"; path = "../../../whatdavesaid/audio/bought-a-new-part.mp3"; sourceTree = "<group>"; };
+		D870C9A71C396295001E0A6D /* challenge-to-a-duel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "challenge-to-a-duel.mp3"; path = "../../../whatdavesaid/audio/challenge-to-a-duel.mp3"; sourceTree = "<group>"; };
+		D870C9A81C396295001E0A6D /* clamy-feeling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "clamy-feeling.mp3"; path = "../../../whatdavesaid/audio/clamy-feeling.mp3"; sourceTree = "<group>"; };
+		D870C9A91C396295001E0A6D /* futons-instead-of-pews.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "futons-instead-of-pews.mp3"; path = "../../../whatdavesaid/audio/futons-instead-of-pews.mp3"; sourceTree = "<group>"; };
+		D870C9AA1C396295001E0A6D /* hahaha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hahaha.mp3; path = ../../../whatdavesaid/audio/hahaha.mp3; sourceTree = "<group>"; };
+		D870C9AB1C396295001E0A6D /* hot-damn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "hot-damn.mp3"; path = "../../../whatdavesaid/audio/hot-damn.mp3"; sourceTree = "<group>"; };
+		D870C9AC1C396295001E0A6D /* large-can-of-beer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "large-can-of-beer.mp3"; path = "../../../whatdavesaid/audio/large-can-of-beer.mp3"; sourceTree = "<group>"; };
+		D870C9AD1C396295001E0A6D /* pansy-immune-system.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "pansy-immune-system.mp3"; path = "../../../whatdavesaid/audio/pansy-immune-system.mp3"; sourceTree = "<group>"; };
+		D870C9AE1C396295001E0A6D /* pessimistic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pessimistic.mp3; path = ../../../whatdavesaid/audio/pessimistic.mp3; sourceTree = "<group>"; };
+		D870C9AF1C396295001E0A6D /* smooth-as-silk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "smooth-as-silk.mp3"; path = "../../../whatdavesaid/audio/smooth-as-silk.mp3"; sourceTree = "<group>"; };
+		D870C9B01C396295001E0A6D /* upper-football.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "upper-football.mp3"; path = "../../../whatdavesaid/audio/upper-football.mp3"; sourceTree = "<group>"; };
+		D870C9B11C396295001E0A6D /* where-you-going.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "where-you-going.mp3"; path = "../../../whatdavesaid/audio/where-you-going.mp3"; sourceTree = "<group>"; };
+		D870C9B21C396295001E0A6D /* wheres-the-buffet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "wheres-the-buffet.mp3"; path = "../../../whatdavesaid/audio/wheres-the-buffet.mp3"; sourceTree = "<group>"; };
+		D870C9B31C396295001E0A6D /* who-is-this.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "who-is-this.mp3"; path = "../../../whatdavesaid/audio/who-is-this.mp3"; sourceTree = "<group>"; };
+		D870C9B41C396295001E0A6D /* william-butterfield.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "william-butterfield.mp3"; path = "../../../whatdavesaid/audio/william-butterfield.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +135,23 @@
 		D80E43881C304E0700A822B6 /* whatdavesaid-ios */ = {
 			isa = PBXGroup;
 			children = (
+				D870C9AB1C396295001E0A6D /* hot-damn.mp3 */,
+				D870C9AC1C396295001E0A6D /* large-can-of-beer.mp3 */,
+				D870C9AD1C396295001E0A6D /* pansy-immune-system.mp3 */,
+				D870C9AE1C396295001E0A6D /* pessimistic.mp3 */,
+				D870C9AF1C396295001E0A6D /* smooth-as-silk.mp3 */,
+				D870C9B01C396295001E0A6D /* upper-football.mp3 */,
+				D870C9B11C396295001E0A6D /* where-you-going.mp3 */,
+				D870C9B21C396295001E0A6D /* wheres-the-buffet.mp3 */,
+				D870C9B31C396295001E0A6D /* who-is-this.mp3 */,
+				D870C9B41C396295001E0A6D /* william-butterfield.mp3 */,
+				D870C9A51C396295001E0A6D /* black-metal.mp3 */,
+				D870C9A61C396295001E0A6D /* bought-a-new-part.mp3 */,
+				D870C9A71C396295001E0A6D /* challenge-to-a-duel.mp3 */,
+				D870C9A81C396295001E0A6D /* clamy-feeling.mp3 */,
+				D870C9A91C396295001E0A6D /* futons-instead-of-pews.mp3 */,
+				D870C9AA1C396295001E0A6D /* hahaha.mp3 */,
+				D870C9C51C3962A8001E0A6D /* audio */,
 				D80E43891C304E0700A822B6 /* AppDelegate.swift */,
 				D80E438D1C304E0700A822B6 /* Main.storyboard */,
 				D80E43901C304E0700A822B6 /* Assets.xcassets */,
@@ -130,6 +179,13 @@
 				D80E43AB1C304E0800A822B6 /* Info.plist */,
 			);
 			path = "whatdavesaid-iosUITests";
+			sourceTree = "<group>";
+		};
+		D870C9C51C3962A8001E0A6D /* audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,9 +292,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D870C9B61C396295001E0A6D /* bought-a-new-part.mp3 in Resources */,
+				D870C9BF1C396295001E0A6D /* smooth-as-silk.mp3 in Resources */,
+				D870C9C01C396295001E0A6D /* upper-football.mp3 in Resources */,
+				D870C9BA1C396295001E0A6D /* hahaha.mp3 in Resources */,
 				D80E43941C304E0700A822B6 /* LaunchScreen.storyboard in Resources */,
+				D870C9B91C396295001E0A6D /* futons-instead-of-pews.mp3 in Resources */,
+				D870C9C21C396295001E0A6D /* wheres-the-buffet.mp3 in Resources */,
 				D80E43911C304E0700A822B6 /* Assets.xcassets in Resources */,
+				D870C9C11C396295001E0A6D /* where-you-going.mp3 in Resources */,
+				D870C9B71C396295001E0A6D /* challenge-to-a-duel.mp3 in Resources */,
+				D870C9B81C396295001E0A6D /* clamy-feeling.mp3 in Resources */,
+				D870C9BC1C396295001E0A6D /* large-can-of-beer.mp3 in Resources */,
+				D870C9BE1C396295001E0A6D /* pessimistic.mp3 in Resources */,
+				D870C9B51C396295001E0A6D /* black-metal.mp3 in Resources */,
+				D870C9BB1C396295001E0A6D /* hot-damn.mp3 in Resources */,
+				D870C9BD1C396295001E0A6D /* pansy-immune-system.mp3 in Resources */,
 				D80E438F1C304E0700A822B6 /* Main.storyboard in Resources */,
+				D870C9C31C396295001E0A6D /* who-is-this.mp3 in Resources */,
+				D870C9C41C396295001E0A6D /* william-butterfield.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +568,7 @@
 				D80E43B01C304E0800A822B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D80E43B11C304E0800A822B6 /* Build configuration list for PBXNativeTarget "whatdavesaid-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +577,7 @@
 				D80E43B31C304E0800A822B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D80E43B41C304E0800A822B6 /* Build configuration list for PBXNativeTarget "whatdavesaid-iosUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +586,7 @@
 				D80E43B61C304E0800A822B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
